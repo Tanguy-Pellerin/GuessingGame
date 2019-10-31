@@ -1,5 +1,5 @@
 README.md:
-	echo '#Guessing game' > README.md
+	echo '# Guessing game' > README.md
 	echo >> README.md
 	date >> README.md
 	echo >> README.md
