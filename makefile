@@ -2,7 +2,7 @@ README.md:guessinggame.sh
 	echo '# Guessing game' > README.md
 	date >> README.md
 	echo >> README.md
-	wc -l guessinggame.sh >> README.md
+	cat guessinggame.sh | wc -l >> README.md
 
 clean:
 	rm README.md
